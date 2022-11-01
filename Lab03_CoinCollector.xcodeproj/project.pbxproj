@@ -13,6 +13,8 @@
 		A8953974291173610036DB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8953972291173610036DB93 /* Main.storyboard */; };
 		A8953976291173620036DB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8953975291173620036DB93 /* Assets.xcassets */; };
 		A8953979291173620036DB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8953977291173620036DB93 /* LaunchScreen.storyboard */; };
+		A895398029117AAF0036DB93 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895397F29117AAF0036DB93 /* Player.swift */; };
+		A895398229117CE40036DB93 /* SpriteKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895398129117CE40036DB93 /* SpriteKitHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A8953973291173610036DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8953975291173620036DB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8953978291173620036DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A895397F29117AAF0036DB93 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A895398129117CE40036DB93 /* SpriteKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				A8953968291173610036DB93 /* AppDelegate.swift */,
 				A895396E291173610036DB93 /* GameScene.swift */,
+				A895397F29117AAF0036DB93 /* Player.swift */,
+				A895398129117CE40036DB93 /* SpriteKitHelper.swift */,
 				A8953970291173610036DB93 /* GameViewController.swift */,
 				A8953972291173610036DB93 /* Main.storyboard */,
 				A8953975291173620036DB93 /* Assets.xcassets */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A895398029117AAF0036DB93 /* Player.swift in Sources */,
 				A895396F291173610036DB93 /* GameScene.swift in Sources */,
 				A8953971291173610036DB93 /* GameViewController.swift in Sources */,
+				A895398229117CE40036DB93 /* SpriteKitHelper.swift in Sources */,
 				A8953969291173610036DB93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
